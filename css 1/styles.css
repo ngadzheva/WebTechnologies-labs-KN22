@@ -1,0 +1,104 @@
+body { 
+
+}
+
+li {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+#article1 .author {
+    float: right;
+}
+
+#article1:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+#article3 {
+    display: none;
+}
+
+h2 {
+    color: red;
+    font-weight: bold;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    font-size: 24px;
+    color: blue;
+}
+
+#article1 {
+    border: 1px solid black;
+    width: 1000px;
+}
+
+#p1 {
+    color: yellow;
+}
+
+.author {
+    color: orange;
+    font-style: italic;
+}
+
+p {
+    color: grey;
+}
+
+section, article {
+    width: 500px;
+    border: 2px dotted grey;
+}
+
+#article2 p {
+    color: violet;
+    font-size: 16px;
+}
+
+#article1 > p {
+    color:aquamarine;
+    font-size: 20px;
+}
+
+p.copyright + p {
+    font-weight: bold;
+}
+
+.copyright ~ p {
+    font-size: 26px;
+}
+
+div.copyright {
+
+}
+
+p:first-child {
+    background: blue;
+}
+
+p:last-child {
+    background: tomato;
+}
+
+section:first-of-type {
+    margin: 20px;
+}
+
+section:last-of-type {
+    margin: 10px;
+}
+
+section:nth-of-type(2) {
+    background: green;
+}
